@@ -1,0 +1,119 @@
+/* Home container styles */
+.home {
+    position: relative;
+    color: #fff;
+    height: 100vh;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .main-heading {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .bb {
+    font-size: 1.2rem;
+  }
+  
+  .cta-section {
+    margin: 30px 0;
+  }
+  
+  .qqqq {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .features-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features-list li {
+    margin-bottom: 10px;
+  }
+  
+  .cta-buttons {
+    margin-top: 20px;
+  }
+  
+  .cta-buttons a {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: rgb(22, 13, 149);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .cta-buttons a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Slider Section */
+  .slider-container {
+    padding: 50px 0;
+    background-color: #c6c6c6;
+  }
+  
+  .service-slide {
+    padding: 20px;
+  }
+  
+  .service-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .service-card img {
+    width: 200px;
+    height: auto;
+    margin-left: 20px;
+  }
+  
+  .more-services {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .more-services .view-more-services {
+    padding: 10px 30px;
+    background-color:  rgb(22, 13, 149);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .more-services {
+    text-align: center;
+    margin-top: 50px; /* Increase the margin to move the button further down */
+  }
+  
+  .more-services .view-more-services {
+    padding: 10px 30px;
+    background-color:  rgb(22, 13, 149);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .more-services .view-more-services:hover {
+    background-color:  rgb(22, 13, 149);
+  }
